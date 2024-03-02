@@ -1,0 +1,100 @@
+.list-data h1{
+  text-align: center;
+  font-size: 45px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+
+}
+.list-control {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  padding: 30px;
+  height: 250px;
+  width: 50%;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  border:  1px solid gray;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-control input {
+  display: block;
+  width: 80%;
+  margin:  0 auto;
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px ;
+}
+.list-control button {
+  display: block;
+  width: 70%;
+  padding: 5px;
+  margin:  0 auto;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+.list-items{
+  width: 80%;
+  height: auto;
+  /* background-color: aqua; */
+  padding: 20px;
+  margin: 0 auto;
+
+}
+.list-items ul  {
+  list-style: '📝     ';
+  /* margin-left: 25px; */
+
+}
+.list-items ul div {
+  width: 80%;
+  height: 100%;
+  margin:0 auto ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  font-size: 20px;
+  text-transform: capitalize;
+  /* border: 1px solid gray; */
+}
+.list-items ul li  {
+  width: 85%;
+  margin: 0 auto;
+  word-wrap: break-word !important;
+  /* color: blueviolet; */
+  text-align: center;
+}
+.list-items button {
+  width: 40px;
+  height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+.list-items span:hover {
+  color: red;
+  
+}
+.list-items .clicked{
+  list-style: '✅     ';
+  text-decoration: line-through;
+}
+
+/* Responsive CSS Styles */
+@media screen and (max-width: 576px) {
+  /* Your CSS styles for mobile phones here */
+  .list-items{
+    width: auto !important;
+  }
+  .list-control {
+    width: 100%;
+  }
+}
